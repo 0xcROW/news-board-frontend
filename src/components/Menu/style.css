@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    color: red;
+}
+
+.menu button {
+    background-color: #fff;
+    border: none;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.menuLateral {
+    background-color: #fff;
+    color: red;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    left: 0px;
+    transition: all 0.3s;
+    position: fixed;
+    padding: 20px;
+}
+
+.menuLateral .fechar button {
+    background-color: #fff;
+    border: none;
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 100%;
+}
